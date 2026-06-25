@@ -31,9 +31,6 @@ As a result, structural socioeconomic variables like **Race/Ethnicity** (0.0181)
 
 ---
 
-## How To Run
-
-1. **Install Dependencies:** `pip install pandas numpy scikit-learn`
-2. **Execute Pipeline:** Place `NHANES_SUPER.csv` in the root directory and run:
-   ```bash
-   python phase1_kfolded_v1.1.py
+## Repository Structure
+* `phase1modeling.py` - Core Python pipeline covering data cleaning, preprocessing, 5-fold cross-validation, and hyperparameter optimization.
+* `biological-aging-chart.svg` - Permutation feature importance visualization highlighting key structural drivers.
