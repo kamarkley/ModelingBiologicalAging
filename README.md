@@ -24,7 +24,7 @@ The processed dataset ($N = 5,407$ complete cases) was evaluated across three op
 | **Linear SVR** | 0.1841 | 0.2336 | `C: 0.1`, `epsilon: 0.1` |
 | **Random Forest** | 0.1646 | 0.2364 | `max_depth: 10`, `n_estimators: 500` |
 
-### 💡 Key Data Storytelling Insight
+### Key Data Storytelling Insight
 The grid search optimized onto a **pure Lasso penalty** (`l1_ratio: 1.0`), meaning the model automatically zeroed out non-contributing clinical parameters (such as HbA1c and BMI) to prevent overfitting. 
 
 As a result, structural socioeconomic variables like **Race/Ethnicity** (0.0181) and **Marital Status** (0.0046) emerged with stronger permutation importance weights than physical markers like **Systolic Blood Pressure** (0.0009), proving that systemic environmental stress factors heavily dictate cellular aging trends.
